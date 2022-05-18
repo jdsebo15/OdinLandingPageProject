@@ -1,0 +1,133 @@
+header,
+.toplist,
+.topsection,
+footer{
+    display: flex;
+    background-color: #1F2937;
+    padding: 25px 50px;
+    justify-content: center;
+    color: #f9faf8;
+}
+header{
+    justify-content: space-between;
+    font-size: 24px;
+    color: #f9faf8;
+    align-items: center;
+    padding-left: 80px;
+}
+.toplist{
+    list-style: none;
+    padding: 5px;
+    color: #e5e7eb;
+}
+body{
+    display: flex;
+    flex-direction: column ;
+    font-family: "roboto", "times new roman", sans-serif;
+    justify-content: space-between;
+}
+li{
+    padding: 10px;
+}
+#pic1{
+    height: 400px;
+    width: 800px;    
+}
+.topsection{
+    padding: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.topleft{
+    padding: 0 60px;
+}
+.hero{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.hero2{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #efe7eb;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 25px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom2{
+    display: flex;
+    justify-content: center;
+}
+.a > img{
+    width: 140px;
+    height: 140px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+.a{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 25px;
+    width: 150px;
+    margin-bottom: 75px;
+}
+.top2{
+    padding: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+}
+.section3{
+    background-color: #e5e7eb;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 150px;
+    font-size: 36px;
+}
+.sig{
+    align-self: flex-end;
+    font-size: 24px;
+}
+.section4{
+    margin: 75px 250px;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 5px;
+}
+.left4{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.call{
+    color:#f9faf8;
+    font-size: 24px;
+}
+.sign{
+    color: #e5e7eb;
+}
+.right4 > button{
+    border: 3px solid #f9faf8;
+    align-self: center;
+    justify-self: center;
+    margin-top: 0;
+    padding: 5 25;
+}
+.right4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+}
